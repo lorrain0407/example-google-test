@@ -1,8 +1,8 @@
-#example-google-test
+# example-google-test
 
-Example-google-test is a simaple project aimd to help to quick build a google unit test project.It is managed by Cmake and can be easy used in windows platform. Thanks for[Crascit](https://github.com/Crascit/DownloadProject) repo,we can download and configure google-test easily.
+Example-google-test is a simaple project aimd to help to quick build a google unit test project.It is managed by Cmake and can be easy used in windows platform. Thanks for [Crascit](https://github.com/Crascit/DownloadProject) repo,we can download and configure google-test easily.
 
-##Add your project
+## Add your project
 
 Fix `../cmake/FindExt.cmake` to add your project include dir and libraries
 
@@ -38,7 +38,7 @@ endif()
 
 ```
 
-##Compile
+## Compile
 Compile this project using the standard cmake routine:
 
 ```
@@ -52,6 +52,6 @@ make
 
 This should find and build the dependencies and create a exampleTest binary.
 
-##Dependencies
+## Dependencies
 
 If you create your project at `/path/to/your project/` ,then a good place to clone this library is /path/to/example-google-test/.
